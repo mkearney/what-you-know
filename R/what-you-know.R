@@ -104,6 +104,6 @@ p <- p +
           fontface = "bold")
 
 ## save as .png file
-png("../image.png", 6, 5, "in", res = 214)
+png("image.png", 6, 5, "in", res = 214)
 p
 dev.off()
